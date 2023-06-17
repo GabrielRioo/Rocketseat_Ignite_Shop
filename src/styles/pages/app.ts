@@ -6,14 +6,6 @@ export const Container = styled('div', {
     alignItems: 'center',
     justifyContent: 'center',
     minHeight: '100vh',
-
-    span: {
-        fontWeight: 'bold',
-    },
-
-    '&:hover': {
-        filter: 'brightness(0.8)',
-    }
 })
 
 export const Header = styled('header', {
